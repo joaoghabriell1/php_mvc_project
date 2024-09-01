@@ -1,0 +1,32 @@
+Pubic Folder 
+ - The front of the application, where the main index.php file is located;
+ - Routing rules inside the .taxes file;
+ - Static assets / javascript files;
+
+App
+ - All app folders / files;
+ - All the MVC structure;
+ - .config files;
+
+App/bootstrap.php
+ - Will require every file needed to run the application;
+
+
+App/helpers
+ - Helper functions;
+
+App/config
+ - Config. files;
+
+App/libraries/core.php
+ - Will manage the url information and define what actions are going to be taken based on the parameters;
+
+App/libraries/database.php
+ - Methods related to database operations;
+ - Model will interact with the file;
+
+App/libraries/controller.php
+ - Main controller class, every other controller extends this class;
+
+
+ 

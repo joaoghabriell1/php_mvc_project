@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on 
+  RewriteBase /shareposts/ 
+  RewriteCond %{REQUEST_URI} !^/shareposts/public/ 
+  RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
